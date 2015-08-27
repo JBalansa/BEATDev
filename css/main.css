@@ -23,6 +23,9 @@ body {
   text-align: center;
   color: #ffffff;
 }
+#particles-js #banner_cont a {
+  color: inherit;
+}
 #particles-js #banner_cont h1 {
   font-size: 170px;
 }
@@ -46,6 +49,76 @@ body {
   display: block;
   margin: 0 auto;
 }
-#info1 h1 {
-  margin: 0;
+#info1 {
+  text-align: center;
+  transition: .3s all;
+}
+#info1 #iconset {
+  text-align: center;
+  margin: 20px auto;
+  padding: 40px;
+}
+#info1 #iconset #bio {
+  background: #55a4da;
+}
+#info1 #iconset #eng {
+  background: #ff1a26;
+}
+#info1 #iconset #ag {
+  background: #ff9325;
+}
+#info1 #iconset #tech {
+  background: #89c764;
+}
+#info1 #iconset .circ {
+  cursor: pointer;
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  border-radius: 9999px;
+  background: blue;
+  text-align: center;
+}
+#info1 #iconset .circ img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+#prog_info a {
+  color: white;
+  text-decoration: none;
+}
+#prog_info .info p {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+  transition: .3s all;
+  padding: 30px;
+}
+#prog_info #bio_i {
+  display: none;
+}
+#prog_info #eng_i {
+  display: none;
+}
+#prog_info #ag_i {
+  display: none;
+}
+#prog_info #tech_i {
+  display: none;
+}
+.show {
+  display: initial;
+}
+.scienceback {
+  background-image: url('https://static.pexels.com/photos/4154/clinic-doctor-health-hospital.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.cwhite {
+  color: #ffffff;
 }

@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	<body>
 
@@ -10,17 +11,58 @@
 			<div id = "banner_cont">
 				<h1>beat</h1>
 				<p>biology | engineering | agriculture | technology</p>
-				<button type = "button" id = "bdown"><span class = "glyphicon glyphicon-chevron-down" aria-hidden = "true"></button>
+				<a href = "#prog"><button type = "button" id = "bdown"><span class = "glyphicon glyphicon-chevron-down" aria-hidden = "true"></button></a>
 			</div>
 		</div>
 
 		<div id = "info1">
-		<h1>Text</h1>
+
+		<a href = "#" id = "prog"><div id = "prog_info"></a>
+
+					<a href = "bio"><div id = "bio_i" class = "info">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at viverra odio. Proin mattis augue nec ante blandit, ut auctor ex sagittis. </p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+				</div>
+				<div id = "eng_i" class = "info">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at viverra odio. Proin mattis augue nec ante blandit, ut auctor ex sagittis. </p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+				</div>
+				<div id = "ag_i" class = "info">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at viverra odio. Proin mattis augue nec ante blandit, ut auctor ex sagittis. </p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+				</div>
+				<div id = "tech_i" class = "info">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at viverra odio. Proin mattis augue nec ante blandit, ut auctor ex sagittis. </p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+					<p>Suspendisse potenti. Cras justo nisi, molestie vitae consequat non, porttitor quis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a vehicula velit, ac luctus lorem. Phasellus tempor ultricies lacus vitae varius. Mauris fringilla erat vitae odio malesuada condimentum.</p>
+				</div>
+			</div>
+
+		<!--ICONSETS SELECT !-->
+			<div id = "iconset">
+				<a href = "#bio"><div id = "bio" class = "circ">
+					<img src = "imgs/bio.png" alt = "bio">
+				</div></a>
+				<div id = "eng" class = "circ">
+					<img src = "imgs/eng.png" alt = "engineering">
+				</div>
+				<div id = "ag" class = "circ">
+					<img src = "imgs/ag.png" alt = "agriculture">
+				</div>
+				<div id = "tech" class = "circ">
+					<img src = "imgs/tech.png" alt = "technology">
+				</div>
+			</div>
+
 		</div>
 
 		<!--SCRIPTS !-->
 		<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
 		<script src = "js/particles.js"></script>
+		<script src = "js/function.js"></script>
 		<!--ENDOFSCRIPTS !-->
 		</body>
 </html>

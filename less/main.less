@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro);
-
+@beatblue: #55a4da;
+@beatred: #FF1A26;
+@beatyellow: #FF9325;
+@beatgreen:	#89C764;
 
 // GENERAL STYLES
 *{
@@ -28,6 +31,9 @@ html,body{
   	transform: translate(-50%,-50%);
   	text-align: center;
   	color: @white;
+  	a{
+  			color: inherit;
+  		}
   	h1{
   		font-size: 170px;
   	}
@@ -54,8 +60,89 @@ html,body{
   }
 }
 
+//PROGRAM STYLINGS
+
 #info1{
-	h1{
-		margin: 0;
+	text-align: center;
+	transition: .3s all;
+	#iconset{
+		text-align: center;
+		margin: 20px auto;
+		padding: 40px;
+		#bio{
+			background: @beatblue;
+		}
+		#eng{
+			background: @beatred;
+		}
+		#ag{
+			background: @beatyellow;
+		}
+		#tech{
+			background: @beatgreen;
+		}
+		.circ{
+			cursor: pointer;
+			display: inline-block;
+			height: 90px;
+			width: 90px;
+			border-radius: 9999px;
+			background: blue;
+			text-align: center;
+			img{
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				-webkit-transform: translateY(-50%);
+			}
+		}
 	}
 }
+
+//PROGRAM INFO STYLINGS
+#prog_info{
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	.info{
+		p{
+			display: block;
+			margin: 0 auto;
+			width: 60%;
+			padding: 20px;
+			font-size: 20px;
+			transition: .3s all;
+			padding: 30px;
+		}
+	}
+	#bio_i{
+		display: none;
+	}
+	#eng_i{
+		display: none;
+	}
+	#ag_i{
+		display: none;
+	}
+	#tech_i{
+		display: none;
+	}
+}
+
+//CLICKSHOW CLASS & BACKGROUND CHANGES 
+.show{
+	display: initial;
+}
+
+.scienceback{
+	background-image: url('https://static.pexels.com/photos/4154/clinic-doctor-health-hospital.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.cwhite{
+	color: #ffffff;
+}
+
