@@ -116,13 +116,13 @@ body {
   display: initial;
 }
 .scienceback {
-  background-image: url('https://static.pexels.com/photos/4154/clinic-doctor-health-hospital.jpg');
+  background-image: url('../imgs/scienceback.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .engback {
-  background-image: url('https://static.pexels.com/photos/3855/wood-architect-table-work.jpeg');
+  background-image: url('../imgs/engback.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
