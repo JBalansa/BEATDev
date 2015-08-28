@@ -112,6 +112,19 @@ body {
 #prog_info #tech_i {
   display: none;
 }
+#teamblock {
+  text-align: center;
+}
+#teamblock .memb_block {
+  display: inline-block;
+}
+#teamblock .memb_block .phot_circ {
+  height: 100px;
+  width: 100px;
+  border-radius: 9999px;
+  background: #666666;
+  margin: 30px;
+}
 .show {
   display: initial;
 }
