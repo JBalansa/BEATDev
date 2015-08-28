@@ -30,7 +30,7 @@ body {
   font-size: 170px;
 }
 #particles-js #banner_cont p {
-  font-size: 40px;
+  font-size: 25px;
 }
 #particles-js #banner_cont #bdown {
   background: none;
@@ -73,6 +73,7 @@ body {
 #info1 #iconset .circ {
   cursor: pointer;
   display: inline-block;
+  margin: 20px;
   height: 90px;
   width: 90px;
   border-radius: 9999px;
@@ -97,6 +98,7 @@ body {
   font-size: 20px;
   transition: .3s all;
   padding: 30px;
+  color: #ffffff;
 }
 #prog_info #bio_i {
   display: none;
@@ -115,6 +117,24 @@ body {
 }
 .scienceback {
   background-image: url('https://static.pexels.com/photos/4154/clinic-doctor-health-hospital.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.engback {
+  background-image: url('https://static.pexels.com/photos/3855/wood-architect-table-work.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.agback {
+  background-image: url('https://static.pexels.com/photos/194/wood-sea-landscape-nature.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.techback {
+  background-image: url('https://static.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
