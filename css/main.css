@@ -139,6 +139,22 @@ body {
   width: 100%;
   background: #666666;
 }
+.lbox {
+  text-align: center;
+  position: relative;
+  top: 75px;
+  padding-bottom: 75px;
+}
+.lbox p {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 10px;
+}
+.lbox .icon_box {
+  diplay: inline;
+}
 .show {
   display: initial;
 }
