@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$("#bio").on('click',function(){
 		$("#info1").removeClass('engback agback techback');
 		$("#bio_i,#eng_i,#ag_i,#tech_i").removeClass('show');
+		$("#check").addClass('cwhite');
 		$("#info1").addClass('scienceback');
 		$("#bio_i").addClass('show');
 	});
@@ -10,6 +11,7 @@ $(document).ready(function(){
 	$("#eng").on('click',function(){
 		$("#info1").removeClass('scienceback agback techback');
 		$("#bio_i,#eng_i,#ag_i,#tech_i").removeClass('show');
+		$("#check").addClass('cwhite');
 		$("#info1").addClass('engback');
 		$("#eng_i").addClass('show');
 	});
@@ -17,6 +19,7 @@ $(document).ready(function(){
 	$("#ag").on('click',function(){
 		$("#info1").removeClass('scienceback engback techback');
 		$("#bio_i,#eng_i,#ag_i,#tech_i").removeClass('show');
+		$("#check").addClass('cwhite');
 		$("#info1").addClass('agback');
 		$("#ag_i").addClass('show');
 	});
@@ -24,6 +27,7 @@ $(document).ready(function(){
 	$("#tech").on('click',function(){
 		$("#info1").removeClass('scienceback engback agback');
 		$("#bio_i,#eng_i,#ag_i,#tech_i").removeClass('show');
+		$("#check").addClass('cwhite');
 		$("#info1").addClass('techback');
 		$("#tech_i").addClass('show');
 	});

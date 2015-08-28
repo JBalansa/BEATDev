@@ -51,7 +51,15 @@ body {
 }
 #info1 {
   text-align: center;
-  transition: .3s all;
+  transition: .5s all;
+}
+#info1 a {
+  color: black;
+  text-decoration: none;
+}
+#info1 h1 {
+  margin: 0;
+  padding-top: 30px;
 }
 #info1 #iconset {
   text-align: center;
@@ -114,6 +122,7 @@ body {
 }
 #teamblock {
   text-align: center;
+  padding: 20px;
 }
 #teamblock .memb_block {
   display: inline-block;
@@ -124,6 +133,11 @@ body {
   border-radius: 9999px;
   background: #666666;
   margin: 30px;
+}
+#map-canvas {
+  height: 250px;
+  width: 100%;
+  background: #666666;
 }
 .show {
   display: initial;
@@ -147,7 +161,7 @@ body {
   background-attachment: fixed;
 }
 .techback {
-  background-image: url('https://static.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg');
+  background-image: url('../imgs/techback.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
